@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style sheet link -->
+    <link rel="stylesheet" href="stylew.css">
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><img src="search.svg" alt="Search Icon"></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Mumbai</h2>
+            <h1 class="temp">25°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/50n.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 72%</div>
+            <div class="wind">Wind Speed: 0 km/h
+            </div>
+        </div>
+    </div>
+
+    <!-- Script link -->
+    <script src="./script.js" defer></script>
+</body>
+</html>
